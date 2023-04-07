@@ -1,6 +1,6 @@
 function countDown(num){
     for (num = num; num>0; num --)
-    {console.log(num)}
+    {setInterval(console.log(num))}
     console.log("DONE!")
 }
 
